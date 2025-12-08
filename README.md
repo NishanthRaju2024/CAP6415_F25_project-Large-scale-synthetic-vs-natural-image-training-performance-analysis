@@ -1,4 +1,4 @@
-# CAP6415_F25_project-Large-scale-synthetic-vs-natural-image-training-performance-analysis
+# CAP6415 F25 project- Large scale synthetic vs natural image training performance analysis
 
 1. ABSTRACT
 --------------------------------------------------------------------------------
