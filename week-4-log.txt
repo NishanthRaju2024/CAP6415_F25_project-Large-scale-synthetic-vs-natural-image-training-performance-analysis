@@ -1,0 +1,9 @@
+Week 4 (ending on November 30)
+------------------------------------
+- Preliminary Results: The "Mixed Data" experiment (50% Real / 50% Synthetic) failed, flatlining at ~88% accuracy.
+- Hypothesis: The model is confused by the simultaneous distribution shift (Shape vs. Texture).
+- Strategy Update: Pivoted to "Curriculum Learning" (Sim-to-Real).
+- Implementation: Coded a two-stage training engine:
+  - Stage 1: Train on Synthetic (High Learning Rate).
+  - Stage 2: Fine-tune on Real (Low Learning Rate).
+- final validation runs.

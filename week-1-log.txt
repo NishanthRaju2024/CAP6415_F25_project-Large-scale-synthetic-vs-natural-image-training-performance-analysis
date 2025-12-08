@@ -1,0 +1,7 @@
+Week 1 (ending on November 9)
+------------------------------------
+- Action: Created GitHub repository.
+- Setup: Configured local development environment with PyTorch, Torchvision, and Transformers.
+- Research: Conducted literature review on "Synthetic vs Natural Image Training".
+- Data Planning: Identified a potential open-source dataset ('vmarklynn/cifar10-synthetic-stable-diffusion') to serve as the synthetic baseline for our experiments.
+

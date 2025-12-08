@@ -1,0 +1,7 @@
+Week 3 (ending on November 23)
+------------------------------------
+- Experiment (Baselines): Implemented the training loop for ResNet50 and ViT-B/16.
+- Run 1 (Real Data Only): Achieved 90.3% accuracy. Observed heavy overfitting (Train 98% vs Test 90%).
+- Run 2 (Synthetic Data Only): Achieved 91.3% accuracy.
+- Analysis: The synthetic simulation successfully acted as a regularizer, forcing the model to learn robust shapes rather than texture noise.
+- Investigating if mixing data improves performance further.

@@ -1,0 +1,8 @@
+Week 2 (ending on November 16)
+------------------------------------
+- Issue Encountered: Attempted to integrate the external synthetic dataset, but it was deleted/private (DatasetNotFoundError). This highlighted the risk of relying on external links ("Link Rot").
+- Decided to implement an "On-the-fly Simulation" pipeline instead.
+- Implementation: Wrote the `transform_synthetic` function using `torchvision.transforms`.
+  - Added Gaussian Blur (sigma 0.1-2.0) to mimic the "smoothness" of generative models.
+  - Added Color Jitter to mimic lighting inconsistencies.
+- Status: Data pipeline is now fully reproducible and self-contained.

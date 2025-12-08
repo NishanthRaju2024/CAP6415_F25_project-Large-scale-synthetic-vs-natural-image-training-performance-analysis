@@ -1,0 +1,8 @@
+Week 5 (ending on December 7)
+------------------------------------
+- Final Experiment: Ran the full comparative suite (Real vs Synthetic vs Mixed vs Curriculum).
+- Validation: Confirmed the failure of the "Mixed Data" hypothesis (Cyan line flatlined at ~89%).
+- Success: The Curriculum Strategy (Blue line) achieved 93.8%, beating the Mixed baseline by ~4%.
+- SOTA Check: Validated the pipeline on ViT-B/16, achieving 97.5% accuracy.
+- Visualization: Generated 'final_full_analysis.png' showing the clear divergence between Mixed and Curriculum strategies.
+- Submission: Recorded demo video highlighting the "Stage Switch" jump in accuracy. Repository finalized.
